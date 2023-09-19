@@ -1,0 +1,7 @@
+{
+  "name": "techTools",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
