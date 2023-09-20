@@ -1,17 +1,79 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Cursos y Certificaciones
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <p>Los cursos académicos (Cole y Universidad) nos dan las bases de conocimientos. Sin embargo, los cursos online y certificaciones nos brindan las herramientas más actuales.</p>
+  <p>Una de las habilidades más importantes de un desarrollador, es su capacidad para aprender de forma auto-didacta. A continuación algunos recursos muy valiosos para aprender.</p>
+  <p>Importante: Algunos son caros pero vale muchísimo la pena adquirirlos. Es una inversión para su carrera.</p>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-list>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Udemy</ion-card-title>
+        <ion-card-subtitle>Una de las mejores plataformas para aprender. Es importante estar atento a los descuentos. Click en cada uno para ver los detalles</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list>
+          <ion-item href="https://www.udemy.com/course/the-linux-command-line-bootcamp/">
+            
+            <ion-label>Linux Command Line</ion-label>
+          </ion-item>
+    
+          <ion-item href="https://www.udemy.com/course/complete-python-bootcamp/">
+            
+            <ion-label>Python</ion-label>
+          </ion-item>
+    
+          <ion-item href="https://www.udemy.com/course/jenkins-from-zero-to-hero/">
+            
+            <ion-label>Jenkins</ion-label>
+          </ion-item>
+    
+          <ion-item href="https://www.udemy.com/course/docker-kubernetes-the-practical-guide/">
+            
+            <ion-label>Docker & Kubernetes</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Libros</ion-card-title>
+        <ion-card-subtitle>Algunos libros que vale la pena adquirir</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list>
+          <ion-item href="https://automatetheboringstuff.com/">
+            
+            <ion-label>Automate the Boring Stuff with Python</ion-label>
+          </ion-item>
+    
+          <ion-item href="https://github.com/dev-marko/clean-code-book/blob/master/Clean%20Code%20(%20PDFDrive.com%20).pdf">
+            
+            <ion-label>Clean Code</ion-label>
+          </ion-item>
+    
+          <ion-item href="https://www.amazon.com/_/dp/0596007124?smid=ATVPDKIKX0DER&_encoding=UTF8&tag=oreilly20-20">
+            
+            <ion-label>Head First Design Patterns</ion-label>
+          </ion-item>
+    
+          <ion-item href="https://www.ansiblefordevops.com/">
+            
+            <ion-label>Ansible for DevOps</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+    
+  </ion-list>
+
+  
 </ion-content>
